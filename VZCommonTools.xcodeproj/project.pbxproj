@@ -7,13 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		84E92B921AE915C800920E18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E92B911AE915C800920E18 /* main.m */; };
-		84E92B951AE915C800920E18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E92B941AE915C800920E18 /* AppDelegate.m */; };
-		84E92B981AE915C800920E18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E92B971AE915C800920E18 /* ViewController.m */; };
 		84E92B9B1AE915C800920E18 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E92B991AE915C800920E18 /* Main.storyboard */; };
 		84E92B9D1AE915C800920E18 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E92B9C1AE915C800920E18 /* Images.xcassets */; };
 		84E92BA01AE915C800920E18 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84E92B9E1AE915C800920E18 /* LaunchScreen.xib */; };
 		84E92BAC1AE915C800920E18 /* VZCommonToolsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E92BAB1AE915C800920E18 /* VZCommonToolsTests.m */; };
+		84E92BBB1AE916D900920E18 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E92BB71AE916D900920E18 /* AppDelegate.m */; };
+		84E92BBC1AE916D900920E18 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E92BB81AE916D900920E18 /* main.m */; };
+		84E92BBD1AE916D900920E18 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84E92BBA1AE916D900920E18 /* ViewController.m */; };
+		84EE46971AE91BD3001FAE4B /* UIView+VZCoordinate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE46961AE91BD3001FAE4B /* UIView+VZCoordinate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,17 +30,19 @@
 /* Begin PBXFileReference section */
 		84E92B8C1AE915C800920E18 /* VZCommonTools.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VZCommonTools.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E92B901AE915C800920E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		84E92B911AE915C800920E18 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84E92B931AE915C800920E18 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		84E92B941AE915C800920E18 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		84E92B961AE915C800920E18 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		84E92B971AE915C800920E18 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		84E92B9A1AE915C800920E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		84E92B9C1AE915C800920E18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		84E92B9C1AE915C800920E18 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; name = Images.xcassets; path = ../Images.xcassets; sourceTree = "<group>"; };
 		84E92B9F1AE915C800920E18 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		84E92BA51AE915C800920E18 /* VZCommonToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VZCommonToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E92BAA1AE915C800920E18 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84E92BAB1AE915C800920E18 /* VZCommonToolsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VZCommonToolsTests.m; sourceTree = "<group>"; };
+		84E92BB61AE916D900920E18 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84E92BB71AE916D900920E18 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84E92BB81AE916D900920E18 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = Classes/main.m; sourceTree = "<group>"; };
+		84E92BB91AE916D900920E18 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84E92BBA1AE916D900920E18 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84EE46951AE91BD3001FAE4B /* UIView+VZCoordinate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+VZCoordinate.h"; sourceTree = "<group>"; };
+		84EE46961AE91BD3001FAE4B /* UIView+VZCoordinate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+VZCoordinate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,13 +84,9 @@
 		84E92B8E1AE915C800920E18 /* VZCommonTools */ = {
 			isa = PBXGroup;
 			children = (
-				84E92B931AE915C800920E18 /* AppDelegate.h */,
-				84E92B941AE915C800920E18 /* AppDelegate.m */,
-				84E92B961AE915C800920E18 /* ViewController.h */,
-				84E92B971AE915C800920E18 /* ViewController.m */,
-				84E92B991AE915C800920E18 /* Main.storyboard */,
-				84E92B9C1AE915C800920E18 /* Images.xcassets */,
-				84E92B9E1AE915C800920E18 /* LaunchScreen.xib */,
+				84E92BB51AE916D900920E18 /* Classes */,
+				84EE46941AE91BB8001FAE4B /* Tools */,
+				84E92BBF1AE916FB00920E18 /* Other */,
 				84E92B8F1AE915C800920E18 /* Supporting Files */,
 			);
 			path = VZCommonTools;
@@ -97,7 +96,7 @@
 			isa = PBXGroup;
 			children = (
 				84E92B901AE915C800920E18 /* Info.plist */,
-				84E92B911AE915C800920E18 /* main.m */,
+				84E92BB81AE916D900920E18 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -117,6 +116,36 @@
 				84E92BAA1AE915C800920E18 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84E92BB51AE916D900920E18 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				84E92B991AE915C800920E18 /* Main.storyboard */,
+				84E92BB61AE916D900920E18 /* AppDelegate.h */,
+				84E92BB71AE916D900920E18 /* AppDelegate.m */,
+				84E92BB91AE916D900920E18 /* ViewController.h */,
+				84E92BBA1AE916D900920E18 /* ViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		84E92BBF1AE916FB00920E18 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				84E92B9C1AE915C800920E18 /* Images.xcassets */,
+				84E92B9E1AE915C800920E18 /* LaunchScreen.xib */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		84EE46941AE91BB8001FAE4B /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				84EE46951AE91BD3001FAE4B /* UIView+VZCoordinate.h */,
+				84EE46961AE91BD3001FAE4B /* UIView+VZCoordinate.m */,
+			);
+			path = Tools;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +248,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				84E92B981AE915C800920E18 /* ViewController.m in Sources */,
-				84E92B951AE915C800920E18 /* AppDelegate.m in Sources */,
-				84E92B921AE915C800920E18 /* main.m in Sources */,
+				84EE46971AE91BD3001FAE4B /* UIView+VZCoordinate.m in Sources */,
+				84E92BBB1AE916D900920E18 /* AppDelegate.m in Sources */,
+				84E92BBC1AE916D900920E18 /* main.m in Sources */,
+				84E92BBD1AE916D900920E18 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -250,6 +280,7 @@
 				84E92B9A1AE915C800920E18 /* Base */,
 			);
 			name = Main.storyboard;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		84E92B9E1AE915C800920E18 /* LaunchScreen.xib */ = {
@@ -258,6 +289,7 @@
 				84E92B9F1AE915C800920E18 /* Base */,
 			);
 			name = LaunchScreen.xib;
+			path = ..;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -416,6 +448,7 @@
 				84E92BB11AE915C800920E18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		84E92BB21AE915C800920E18 /* Build configuration list for PBXNativeTarget "VZCommonToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +457,7 @@
 				84E92BB41AE915C800920E18 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
